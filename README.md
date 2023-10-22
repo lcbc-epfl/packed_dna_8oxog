@@ -7,7 +7,7 @@ SI_October2023.pdf contains:
 * Table of average hydrogen-bonding eligible partners with the central base of the QM region and solvent molecules
 * All 41 structural parameter distribution plots as well as select section-by-section structural parameter plots
 * RMSF plots of base flexibility for four DNA sections
-* DNA-water radial distribution functions for the phosphorous atoms of the DNA backbone near the quantum region and oxygen atoms in water
+* DNA-water radial distribution functions for the phosphorus atoms of the DNA backbone near the quantum region and oxygen atoms in water
 * DNA-water radial distribution functions for the N7 atom of the QM region central base and oxygen atoms in water
 * Tables of means and standard deviations for all structural parameter plots
 
