@@ -27,17 +27,17 @@ analysis directory contains:
 classical_MD directory contains:
 * N.B. Full trajectory files are too large for github or zenodo storage, so reduced, representative trajectory frames (every 500 time steps) are located directly on zenodo
 * 8oxoG_reg1 directory
-  * 8oxoG_oxidized_reg1 : analogous to above
+  * 8oxoG_oxidized_reg1
+    * * wt_ox_reg1_mdrun.mdp : production run input for gromacs classical MD
+    * wt_ox_reg1_structure.gro : strucutre input for gromacs classical MD
+    * wt_ox_reg1_topology directory with all topology itp and top files
   * 8oxoG_reduced_reg1 : analogous to above
 * 8oxoG_reg2 directory
   * 8oxoG_oxidized_reg2 : analogous to above
   * 8oxoG_reduced_reg2 : analogous to above
 * rmsf directory contains section-by-section rmsf values by system resid
 * wildtype directory
-  * wt_oxidized_reg1
-  * * wt_ox_reg1_mdrun.mdp : production run input for gromacs classical MD
-    * wt_ox_reg1_structure.gro : strucutre input for gromacs classical MD
-    * wt_ox_reg1_topology directory with all topology itp and top files
+  * wt_oxidized_reg1 : analogous to above
   * wt_oxidized_reg2 : analogous to above
   * wt_reduced_both : analogous to above
    
