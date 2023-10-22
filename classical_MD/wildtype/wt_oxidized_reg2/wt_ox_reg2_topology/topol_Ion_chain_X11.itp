@@ -1,0 +1,711 @@
+;
+;	File 'topol_Ion_chain_X11.itp' was generated
+;	By user: pdiamant (1076)
+;	On host: lcbcpc57
+;	At date: Thu Nov 14 17:04:17 2019
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.4 (-:
+;	
+;	Executable:   /software/gromacs/2019.4/gcc-8.3.0/bin/gmx_mpi
+;	Data prefix:  /software/gromacs/2019.4/gcc-8.3.0
+;	Working dir:  /share/lcbcsrv5/lcbcdata/pdiamant/12_NCP_REDOX/3_wt_G_hole_2/0_setup
+;	Command line:
+;	  gmx_mpi pdb2gmx -f in_no_h.pdb -ff amber14sb_parmbsc1 -o ncp.gro -water tip3p
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion_chain_X11       3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 1098 NA  rtp NA   q +1.0
+     1         Na   1098     NA     NA      1          1      22.99   ; qtot 1
+; residue 1099 NA  rtp NA   q +1.0
+     2         Na   1099     NA     NA      2          1      22.99   ; qtot 2
+; residue 1100 NA  rtp NA   q +1.0
+     3         Na   1100     NA     NA      3          1      22.99   ; qtot 3
+; residue 1101 NA  rtp NA   q +1.0
+     4         Na   1101     NA     NA      4          1      22.99   ; qtot 4
+; residue 1102 NA  rtp NA   q +1.0
+     5         Na   1102     NA     NA      5          1      22.99   ; qtot 5
+; residue 1103 NA  rtp NA   q +1.0
+     6         Na   1103     NA     NA      6          1      22.99   ; qtot 6
+; residue 1104 NA  rtp NA   q +1.0
+     7         Na   1104     NA     NA      7          1      22.99   ; qtot 7
+; residue 1105 NA  rtp NA   q +1.0
+     8         Na   1105     NA     NA      8          1      22.99   ; qtot 8
+; residue 1106 NA  rtp NA   q +1.0
+     9         Na   1106     NA     NA      9          1      22.99   ; qtot 9
+; residue 1107 NA  rtp NA   q +1.0
+    10         Na   1107     NA     NA     10          1      22.99   ; qtot 10
+; residue 1108 NA  rtp NA   q +1.0
+    11         Na   1108     NA     NA     11          1      22.99   ; qtot 11
+; residue 1109 NA  rtp NA   q +1.0
+    12         Na   1109     NA     NA     12          1      22.99   ; qtot 12
+; residue 1110 NA  rtp NA   q +1.0
+    13         Na   1110     NA     NA     13          1      22.99   ; qtot 13
+; residue 1111 NA  rtp NA   q +1.0
+    14         Na   1111     NA     NA     14          1      22.99   ; qtot 14
+; residue 1112 NA  rtp NA   q +1.0
+    15         Na   1112     NA     NA     15          1      22.99   ; qtot 15
+; residue 1113 NA  rtp NA   q +1.0
+    16         Na   1113     NA     NA     16          1      22.99   ; qtot 16
+; residue 1114 NA  rtp NA   q +1.0
+    17         Na   1114     NA     NA     17          1      22.99   ; qtot 17
+; residue 1115 NA  rtp NA   q +1.0
+    18         Na   1115     NA     NA     18          1      22.99   ; qtot 18
+; residue 1116 NA  rtp NA   q +1.0
+    19         Na   1116     NA     NA     19          1      22.99   ; qtot 19
+; residue 1117 NA  rtp NA   q +1.0
+    20         Na   1117     NA     NA     20          1      22.99   ; qtot 20
+; residue 1118 NA  rtp NA   q +1.0
+    21         Na   1118     NA     NA     21          1      22.99   ; qtot 21
+; residue 1119 NA  rtp NA   q +1.0
+    22         Na   1119     NA     NA     22          1      22.99   ; qtot 22
+; residue 1120 NA  rtp NA   q +1.0
+    23         Na   1120     NA     NA     23          1      22.99   ; qtot 23
+; residue 1121 NA  rtp NA   q +1.0
+    24         Na   1121     NA     NA     24          1      22.99   ; qtot 24
+; residue 1122 NA  rtp NA   q +1.0
+    25         Na   1122     NA     NA     25          1      22.99   ; qtot 25
+; residue 1123 NA  rtp NA   q +1.0
+    26         Na   1123     NA     NA     26          1      22.99   ; qtot 26
+; residue 1124 NA  rtp NA   q +1.0
+    27         Na   1124     NA     NA     27          1      22.99   ; qtot 27
+; residue 1125 NA  rtp NA   q +1.0
+    28         Na   1125     NA     NA     28          1      22.99   ; qtot 28
+; residue 1126 NA  rtp NA   q +1.0
+    29         Na   1126     NA     NA     29          1      22.99   ; qtot 29
+; residue 1127 NA  rtp NA   q +1.0
+    30         Na   1127     NA     NA     30          1      22.99   ; qtot 30
+; residue 1128 NA  rtp NA   q +1.0
+    31         Na   1128     NA     NA     31          1      22.99   ; qtot 31
+; residue 1129 NA  rtp NA   q +1.0
+    32         Na   1129     NA     NA     32          1      22.99   ; qtot 32
+; residue 1130 NA  rtp NA   q +1.0
+    33         Na   1130     NA     NA     33          1      22.99   ; qtot 33
+; residue 1131 NA  rtp NA   q +1.0
+    34         Na   1131     NA     NA     34          1      22.99   ; qtot 34
+; residue 1132 NA  rtp NA   q +1.0
+    35         Na   1132     NA     NA     35          1      22.99   ; qtot 35
+; residue 1133 NA  rtp NA   q +1.0
+    36         Na   1133     NA     NA     36          1      22.99   ; qtot 36
+; residue 1134 NA  rtp NA   q +1.0
+    37         Na   1134     NA     NA     37          1      22.99   ; qtot 37
+; residue 1135 NA  rtp NA   q +1.0
+    38         Na   1135     NA     NA     38          1      22.99   ; qtot 38
+; residue 1136 NA  rtp NA   q +1.0
+    39         Na   1136     NA     NA     39          1      22.99   ; qtot 39
+; residue 1137 NA  rtp NA   q +1.0
+    40         Na   1137     NA     NA     40          1      22.99   ; qtot 40
+; residue 1138 NA  rtp NA   q +1.0
+    41         Na   1138     NA     NA     41          1      22.99   ; qtot 41
+; residue 1139 NA  rtp NA   q +1.0
+    42         Na   1139     NA     NA     42          1      22.99   ; qtot 42
+; residue 1140 NA  rtp NA   q +1.0
+    43         Na   1140     NA     NA     43          1      22.99   ; qtot 43
+; residue 1141 NA  rtp NA   q +1.0
+    44         Na   1141     NA     NA     44          1      22.99   ; qtot 44
+; residue 1142 NA  rtp NA   q +1.0
+    45         Na   1142     NA     NA     45          1      22.99   ; qtot 45
+; residue 1143 NA  rtp NA   q +1.0
+    46         Na   1143     NA     NA     46          1      22.99   ; qtot 46
+; residue 1144 NA  rtp NA   q +1.0
+    47         Na   1144     NA     NA     47          1      22.99   ; qtot 47
+; residue 1145 NA  rtp NA   q +1.0
+    48         Na   1145     NA     NA     48          1      22.99   ; qtot 48
+; residue 1146 NA  rtp NA   q +1.0
+    49         Na   1146     NA     NA     49          1      22.99   ; qtot 49
+; residue 1147 NA  rtp NA   q +1.0
+    50         Na   1147     NA     NA     50          1      22.99   ; qtot 50
+; residue 1148 NA  rtp NA   q +1.0
+    51         Na   1148     NA     NA     51          1      22.99   ; qtot 51
+; residue 1149 NA  rtp NA   q +1.0
+    52         Na   1149     NA     NA     52          1      22.99   ; qtot 52
+; residue 1150 NA  rtp NA   q +1.0
+    53         Na   1150     NA     NA     53          1      22.99   ; qtot 53
+; residue 1151 NA  rtp NA   q +1.0
+    54         Na   1151     NA     NA     54          1      22.99   ; qtot 54
+; residue 1152 NA  rtp NA   q +1.0
+    55         Na   1152     NA     NA     55          1      22.99   ; qtot 55
+; residue 1153 NA  rtp NA   q +1.0
+    56         Na   1153     NA     NA     56          1      22.99   ; qtot 56
+; residue 1154 NA  rtp NA   q +1.0
+    57         Na   1154     NA     NA     57          1      22.99   ; qtot 57
+; residue 1155 NA  rtp NA   q +1.0
+    58         Na   1155     NA     NA     58          1      22.99   ; qtot 58
+; residue 1156 NA  rtp NA   q +1.0
+    59         Na   1156     NA     NA     59          1      22.99   ; qtot 59
+; residue 1157 NA  rtp NA   q +1.0
+    60         Na   1157     NA     NA     60          1      22.99   ; qtot 60
+; residue 1158 NA  rtp NA   q +1.0
+    61         Na   1158     NA     NA     61          1      22.99   ; qtot 61
+; residue 1159 NA  rtp NA   q +1.0
+    62         Na   1159     NA     NA     62          1      22.99   ; qtot 62
+; residue 1160 NA  rtp NA   q +1.0
+    63         Na   1160     NA     NA     63          1      22.99   ; qtot 63
+; residue 1161 NA  rtp NA   q +1.0
+    64         Na   1161     NA     NA     64          1      22.99   ; qtot 64
+; residue 1162 NA  rtp NA   q +1.0
+    65         Na   1162     NA     NA     65          1      22.99   ; qtot 65
+; residue 1163 NA  rtp NA   q +1.0
+    66         Na   1163     NA     NA     66          1      22.99   ; qtot 66
+; residue 1164 NA  rtp NA   q +1.0
+    67         Na   1164     NA     NA     67          1      22.99   ; qtot 67
+; residue 1165 NA  rtp NA   q +1.0
+    68         Na   1165     NA     NA     68          1      22.99   ; qtot 68
+; residue 1166 NA  rtp NA   q +1.0
+    69         Na   1166     NA     NA     69          1      22.99   ; qtot 69
+; residue 1167 NA  rtp NA   q +1.0
+    70         Na   1167     NA     NA     70          1      22.99   ; qtot 70
+; residue 1168 NA  rtp NA   q +1.0
+    71         Na   1168     NA     NA     71          1      22.99   ; qtot 71
+; residue 1169 NA  rtp NA   q +1.0
+    72         Na   1169     NA     NA     72          1      22.99   ; qtot 72
+; residue 1170 NA  rtp NA   q +1.0
+    73         Na   1170     NA     NA     73          1      22.99   ; qtot 73
+; residue 1171 NA  rtp NA   q +1.0
+    74         Na   1171     NA     NA     74          1      22.99   ; qtot 74
+; residue 1172 NA  rtp NA   q +1.0
+    75         Na   1172     NA     NA     75          1      22.99   ; qtot 75
+; residue 1173 NA  rtp NA   q +1.0
+    76         Na   1173     NA     NA     76          1      22.99   ; qtot 76
+; residue 1174 NA  rtp NA   q +1.0
+    77         Na   1174     NA     NA     77          1      22.99   ; qtot 77
+; residue 1175 NA  rtp NA   q +1.0
+    78         Na   1175     NA     NA     78          1      22.99   ; qtot 78
+; residue 1176 NA  rtp NA   q +1.0
+    79         Na   1176     NA     NA     79          1      22.99   ; qtot 79
+; residue 1177 NA  rtp NA   q +1.0
+    80         Na   1177     NA     NA     80          1      22.99   ; qtot 80
+; residue 1178 NA  rtp NA   q +1.0
+    81         Na   1178     NA     NA     81          1      22.99   ; qtot 81
+; residue 1179 NA  rtp NA   q +1.0
+    82         Na   1179     NA     NA     82          1      22.99   ; qtot 82
+; residue 1180 NA  rtp NA   q +1.0
+    83         Na   1180     NA     NA     83          1      22.99   ; qtot 83
+; residue 1181 NA  rtp NA   q +1.0
+    84         Na   1181     NA     NA     84          1      22.99   ; qtot 84
+; residue 1182 NA  rtp NA   q +1.0
+    85         Na   1182     NA     NA     85          1      22.99   ; qtot 85
+; residue 1183 NA  rtp NA   q +1.0
+    86         Na   1183     NA     NA     86          1      22.99   ; qtot 86
+; residue 1184 NA  rtp NA   q +1.0
+    87         Na   1184     NA     NA     87          1      22.99   ; qtot 87
+; residue 1185 NA  rtp NA   q +1.0
+    88         Na   1185     NA     NA     88          1      22.99   ; qtot 88
+; residue 1186 NA  rtp NA   q +1.0
+    89         Na   1186     NA     NA     89          1      22.99   ; qtot 89
+; residue 1187 NA  rtp NA   q +1.0
+    90         Na   1187     NA     NA     90          1      22.99   ; qtot 90
+; residue 1188 NA  rtp NA   q +1.0
+    91         Na   1188     NA     NA     91          1      22.99   ; qtot 91
+; residue 1189 NA  rtp NA   q +1.0
+    92         Na   1189     NA     NA     92          1      22.99   ; qtot 92
+; residue 1190 NA  rtp NA   q +1.0
+    93         Na   1190     NA     NA     93          1      22.99   ; qtot 93
+; residue 1191 NA  rtp NA   q +1.0
+    94         Na   1191     NA     NA     94          1      22.99   ; qtot 94
+; residue 1192 NA  rtp NA   q +1.0
+    95         Na   1192     NA     NA     95          1      22.99   ; qtot 95
+; residue 1193 NA  rtp NA   q +1.0
+    96         Na   1193     NA     NA     96          1      22.99   ; qtot 96
+; residue 1194 NA  rtp NA   q +1.0
+    97         Na   1194     NA     NA     97          1      22.99   ; qtot 97
+; residue 1195 NA  rtp NA   q +1.0
+    98         Na   1195     NA     NA     98          1      22.99   ; qtot 98
+; residue 1196 NA  rtp NA   q +1.0
+    99         Na   1196     NA     NA     99          1      22.99   ; qtot 99
+; residue 1197 NA  rtp NA   q +1.0
+   100         Na   1197     NA     NA    100          1      22.99   ; qtot 100
+; residue 1198 NA  rtp NA   q +1.0
+   101         Na   1198     NA     NA    101          1      22.99   ; qtot 101
+; residue 1199 NA  rtp NA   q +1.0
+   102         Na   1199     NA     NA    102          1      22.99   ; qtot 102
+; residue 1200 NA  rtp NA   q +1.0
+   103         Na   1200     NA     NA    103          1      22.99   ; qtot 103
+; residue 1201 NA  rtp NA   q +1.0
+   104         Na   1201     NA     NA    104          1      22.99   ; qtot 104
+; residue 1202 NA  rtp NA   q +1.0
+   105         Na   1202     NA     NA    105          1      22.99   ; qtot 105
+; residue 1203 NA  rtp NA   q +1.0
+   106         Na   1203     NA     NA    106          1      22.99   ; qtot 106
+; residue 1204 NA  rtp NA   q +1.0
+   107         Na   1204     NA     NA    107          1      22.99   ; qtot 107
+; residue 1205 NA  rtp NA   q +1.0
+   108         Na   1205     NA     NA    108          1      22.99   ; qtot 108
+; residue 1206 NA  rtp NA   q +1.0
+   109         Na   1206     NA     NA    109          1      22.99   ; qtot 109
+; residue 1207 NA  rtp NA   q +1.0
+   110         Na   1207     NA     NA    110          1      22.99   ; qtot 110
+; residue 1208 NA  rtp NA   q +1.0
+   111         Na   1208     NA     NA    111          1      22.99   ; qtot 111
+; residue 1209 NA  rtp NA   q +1.0
+   112         Na   1209     NA     NA    112          1      22.99   ; qtot 112
+; residue 1210 NA  rtp NA   q +1.0
+   113         Na   1210     NA     NA    113          1      22.99   ; qtot 113
+; residue 1211 NA  rtp NA   q +1.0
+   114         Na   1211     NA     NA    114          1      22.99   ; qtot 114
+; residue 1212 NA  rtp NA   q +1.0
+   115         Na   1212     NA     NA    115          1      22.99   ; qtot 115
+; residue 1213 NA  rtp NA   q +1.0
+   116         Na   1213     NA     NA    116          1      22.99   ; qtot 116
+; residue 1214 NA  rtp NA   q +1.0
+   117         Na   1214     NA     NA    117          1      22.99   ; qtot 117
+; residue 1215 NA  rtp NA   q +1.0
+   118         Na   1215     NA     NA    118          1      22.99   ; qtot 118
+; residue 1216 NA  rtp NA   q +1.0
+   119         Na   1216     NA     NA    119          1      22.99   ; qtot 119
+; residue 1217 NA  rtp NA   q +1.0
+   120         Na   1217     NA     NA    120          1      22.99   ; qtot 120
+; residue 1218 NA  rtp NA   q +1.0
+   121         Na   1218     NA     NA    121          1      22.99   ; qtot 121
+; residue 1219 NA  rtp NA   q +1.0
+   122         Na   1219     NA     NA    122          1      22.99   ; qtot 122
+; residue 1220 NA  rtp NA   q +1.0
+   123         Na   1220     NA     NA    123          1      22.99   ; qtot 123
+; residue 1221 NA  rtp NA   q +1.0
+   124         Na   1221     NA     NA    124          1      22.99   ; qtot 124
+; residue 1222 NA  rtp NA   q +1.0
+   125         Na   1222     NA     NA    125          1      22.99   ; qtot 125
+; residue 1223 NA  rtp NA   q +1.0
+   126         Na   1223     NA     NA    126          1      22.99   ; qtot 126
+; residue 1224 NA  rtp NA   q +1.0
+   127         Na   1224     NA     NA    127          1      22.99   ; qtot 127
+; residue 1225 NA  rtp NA   q +1.0
+   128         Na   1225     NA     NA    128          1      22.99   ; qtot 128
+; residue 1226 NA  rtp NA   q +1.0
+   129         Na   1226     NA     NA    129          1      22.99   ; qtot 129
+; residue 1227 NA  rtp NA   q +1.0
+   130         Na   1227     NA     NA    130          1      22.99   ; qtot 130
+; residue 1228 NA  rtp NA   q +1.0
+   131         Na   1228     NA     NA    131          1      22.99   ; qtot 131
+; residue 1229 NA  rtp NA   q +1.0
+   132         Na   1229     NA     NA    132          1      22.99   ; qtot 132
+; residue 1230 NA  rtp NA   q +1.0
+   133         Na   1230     NA     NA    133          1      22.99   ; qtot 133
+; residue 1231 NA  rtp NA   q +1.0
+   134         Na   1231     NA     NA    134          1      22.99   ; qtot 134
+; residue 1232 NA  rtp NA   q +1.0
+   135         Na   1232     NA     NA    135          1      22.99   ; qtot 135
+; residue 1233 NA  rtp NA   q +1.0
+   136         Na   1233     NA     NA    136          1      22.99   ; qtot 136
+; residue 1234 NA  rtp NA   q +1.0
+   137         Na   1234     NA     NA    137          1      22.99   ; qtot 137
+; residue 1235 NA  rtp NA   q +1.0
+   138         Na   1235     NA     NA    138          1      22.99   ; qtot 138
+; residue 1236 NA  rtp NA   q +1.0
+   139         Na   1236     NA     NA    139          1      22.99   ; qtot 139
+; residue 1237 NA  rtp NA   q +1.0
+   140         Na   1237     NA     NA    140          1      22.99   ; qtot 140
+; residue 1238 NA  rtp NA   q +1.0
+   141         Na   1238     NA     NA    141          1      22.99   ; qtot 141
+; residue 1239 NA  rtp NA   q +1.0
+   142         Na   1239     NA     NA    142          1      22.99   ; qtot 142
+; residue 1240 NA  rtp NA   q +1.0
+   143         Na   1240     NA     NA    143          1      22.99   ; qtot 143
+; residue 1241 NA  rtp NA   q +1.0
+   144         Na   1241     NA     NA    144          1      22.99   ; qtot 144
+; residue 1242 NA  rtp NA   q +1.0
+   145         Na   1242     NA     NA    145          1      22.99   ; qtot 145
+; residue 1243 NA  rtp NA   q +1.0
+   146         Na   1243     NA     NA    146          1      22.99   ; qtot 146
+; residue 1244 NA  rtp NA   q +1.0
+   147         Na   1244     NA     NA    147          1      22.99   ; qtot 147
+; residue 1245 NA  rtp NA   q +1.0
+   148         Na   1245     NA     NA    148          1      22.99   ; qtot 148
+; residue 1246 NA  rtp NA   q +1.0
+   149         Na   1246     NA     NA    149          1      22.99   ; qtot 149
+; residue 1247 NA  rtp NA   q +1.0
+   150         Na   1247     NA     NA    150          1      22.99   ; qtot 150
+; residue 1248 NA  rtp NA   q +1.0
+   151         Na   1248     NA     NA    151          1      22.99   ; qtot 151
+; residue 1249 NA  rtp NA   q +1.0
+   152         Na   1249     NA     NA    152          1      22.99   ; qtot 152
+; residue 1250 NA  rtp NA   q +1.0
+   153         Na   1250     NA     NA    153          1      22.99   ; qtot 153
+; residue 1251 NA  rtp NA   q +1.0
+   154         Na   1251     NA     NA    154          1      22.99   ; qtot 154
+; residue 1252 NA  rtp NA   q +1.0
+   155         Na   1252     NA     NA    155          1      22.99   ; qtot 155
+; residue 1253 NA  rtp NA   q +1.0
+   156         Na   1253     NA     NA    156          1      22.99   ; qtot 156
+; residue 1254 NA  rtp NA   q +1.0
+   157         Na   1254     NA     NA    157          1      22.99   ; qtot 157
+; residue 1255 NA  rtp NA   q +1.0
+   158         Na   1255     NA     NA    158          1      22.99   ; qtot 158
+; residue 1256 NA  rtp NA   q +1.0
+   159         Na   1256     NA     NA    159          1      22.99   ; qtot 159
+; residue 1257 NA  rtp NA   q +1.0
+   160         Na   1257     NA     NA    160          1      22.99   ; qtot 160
+; residue 1258 NA  rtp NA   q +1.0
+   161         Na   1258     NA     NA    161          1      22.99   ; qtot 161
+; residue 1259 NA  rtp NA   q +1.0
+   162         Na   1259     NA     NA    162          1      22.99   ; qtot 162
+; residue 1260 NA  rtp NA   q +1.0
+   163         Na   1260     NA     NA    163          1      22.99   ; qtot 163
+; residue 1261 NA  rtp NA   q +1.0
+   164         Na   1261     NA     NA    164          1      22.99   ; qtot 164
+; residue 1262 NA  rtp NA   q +1.0
+   165         Na   1262     NA     NA    165          1      22.99   ; qtot 165
+; residue 1263 NA  rtp NA   q +1.0
+   166         Na   1263     NA     NA    166          1      22.99   ; qtot 166
+; residue 1264 NA  rtp NA   q +1.0
+   167         Na   1264     NA     NA    167          1      22.99   ; qtot 167
+; residue 1265 NA  rtp NA   q +1.0
+   168         Na   1265     NA     NA    168          1      22.99   ; qtot 168
+; residue 1266 NA  rtp NA   q +1.0
+   169         Na   1266     NA     NA    169          1      22.99   ; qtot 169
+; residue 1267 NA  rtp NA   q +1.0
+   170         Na   1267     NA     NA    170          1      22.99   ; qtot 170
+; residue 1268 NA  rtp NA   q +1.0
+   171         Na   1268     NA     NA    171          1      22.99   ; qtot 171
+; residue 1269 NA  rtp NA   q +1.0
+   172         Na   1269     NA     NA    172          1      22.99   ; qtot 172
+; residue 1270 NA  rtp NA   q +1.0
+   173         Na   1270     NA     NA    173          1      22.99   ; qtot 173
+; residue 1271 NA  rtp NA   q +1.0
+   174         Na   1271     NA     NA    174          1      22.99   ; qtot 174
+; residue 1272 NA  rtp NA   q +1.0
+   175         Na   1272     NA     NA    175          1      22.99   ; qtot 175
+; residue 1273 NA  rtp NA   q +1.0
+   176         Na   1273     NA     NA    176          1      22.99   ; qtot 176
+; residue 1274 NA  rtp NA   q +1.0
+   177         Na   1274     NA     NA    177          1      22.99   ; qtot 177
+; residue 1275 NA  rtp NA   q +1.0
+   178         Na   1275     NA     NA    178          1      22.99   ; qtot 178
+; residue 1276 NA  rtp NA   q +1.0
+   179         Na   1276     NA     NA    179          1      22.99   ; qtot 179
+; residue 1277 NA  rtp NA   q +1.0
+   180         Na   1277     NA     NA    180          1      22.99   ; qtot 180
+; residue 1278 NA  rtp NA   q +1.0
+   181         Na   1278     NA     NA    181          1      22.99   ; qtot 181
+; residue 1279 NA  rtp NA   q +1.0
+   182         Na   1279     NA     NA    182          1      22.99   ; qtot 182
+; residue 1280 NA  rtp NA   q +1.0
+   183         Na   1280     NA     NA    183          1      22.99   ; qtot 183
+; residue 1281 NA  rtp NA   q +1.0
+   184         Na   1281     NA     NA    184          1      22.99   ; qtot 184
+; residue 1282 NA  rtp NA   q +1.0
+   185         Na   1282     NA     NA    185          1      22.99   ; qtot 185
+; residue 1283 NA  rtp NA   q +1.0
+   186         Na   1283     NA     NA    186          1      22.99   ; qtot 186
+; residue 1284 NA  rtp NA   q +1.0
+   187         Na   1284     NA     NA    187          1      22.99   ; qtot 187
+; residue 1285 NA  rtp NA   q +1.0
+   188         Na   1285     NA     NA    188          1      22.99   ; qtot 188
+; residue 1286 NA  rtp NA   q +1.0
+   189         Na   1286     NA     NA    189          1      22.99   ; qtot 189
+; residue 1287 NA  rtp NA   q +1.0
+   190         Na   1287     NA     NA    190          1      22.99   ; qtot 190
+; residue 1288 NA  rtp NA   q +1.0
+   191         Na   1288     NA     NA    191          1      22.99   ; qtot 191
+; residue 1289 NA  rtp NA   q +1.0
+   192         Na   1289     NA     NA    192          1      22.99   ; qtot 192
+; residue 1290 NA  rtp NA   q +1.0
+   193         Na   1290     NA     NA    193          1      22.99   ; qtot 193
+; residue 1291 NA  rtp NA   q +1.0
+   194         Na   1291     NA     NA    194          1      22.99   ; qtot 194
+; residue 1292 NA  rtp NA   q +1.0
+   195         Na   1292     NA     NA    195          1      22.99   ; qtot 195
+; residue 1293 NA  rtp NA   q +1.0
+   196         Na   1293     NA     NA    196          1      22.99   ; qtot 196
+; residue 1294 NA  rtp NA   q +1.0
+   197         Na   1294     NA     NA    197          1      22.99   ; qtot 197
+; residue 1295 NA  rtp NA   q +1.0
+   198         Na   1295     NA     NA    198          1      22.99   ; qtot 198
+; residue 1296 NA  rtp NA   q +1.0
+   199         Na   1296     NA     NA    199          1      22.99   ; qtot 199
+; residue 1297 NA  rtp NA   q +1.0
+   200         Na   1297     NA     NA    200          1      22.99   ; qtot 200
+; residue 1298 NA  rtp NA   q +1.0
+   201         Na   1298     NA     NA    201          1      22.99   ; qtot 201
+; residue 1299 NA  rtp NA   q +1.0
+   202         Na   1299     NA     NA    202          1      22.99   ; qtot 202
+; residue 1300 NA  rtp NA   q +1.0
+   203         Na   1300     NA     NA    203          1      22.99   ; qtot 203
+; residue 1301 NA  rtp NA   q +1.0
+   204         Na   1301     NA     NA    204          1      22.99   ; qtot 204
+; residue 1302 NA  rtp NA   q +1.0
+   205         Na   1302     NA     NA    205          1      22.99   ; qtot 205
+; residue 1303 NA  rtp NA   q +1.0
+   206         Na   1303     NA     NA    206          1      22.99   ; qtot 206
+; residue 1304 NA  rtp NA   q +1.0
+   207         Na   1304     NA     NA    207          1      22.99   ; qtot 207
+; residue 1305 NA  rtp NA   q +1.0
+   208         Na   1305     NA     NA    208          1      22.99   ; qtot 208
+; residue 1306 NA  rtp NA   q +1.0
+   209         Na   1306     NA     NA    209          1      22.99   ; qtot 209
+; residue 1307 NA  rtp NA   q +1.0
+   210         Na   1307     NA     NA    210          1      22.99   ; qtot 210
+; residue 1308 NA  rtp NA   q +1.0
+   211         Na   1308     NA     NA    211          1      22.99   ; qtot 211
+; residue 1309 NA  rtp NA   q +1.0
+   212         Na   1309     NA     NA    212          1      22.99   ; qtot 212
+; residue 1310 NA  rtp NA   q +1.0
+   213         Na   1310     NA     NA    213          1      22.99   ; qtot 213
+; residue 1311 NA  rtp NA   q +1.0
+   214         Na   1311     NA     NA    214          1      22.99   ; qtot 214
+; residue 1312 NA  rtp NA   q +1.0
+   215         Na   1312     NA     NA    215          1      22.99   ; qtot 215
+; residue 1313 NA  rtp NA   q +1.0
+   216         Na   1313     NA     NA    216          1      22.99   ; qtot 216
+; residue 1314 NA  rtp NA   q +1.0
+   217         Na   1314     NA     NA    217          1      22.99   ; qtot 217
+; residue 1315 NA  rtp NA   q +1.0
+   218         Na   1315     NA     NA    218          1      22.99   ; qtot 218
+; residue 1316 NA  rtp NA   q +1.0
+   219         Na   1316     NA     NA    219          1      22.99   ; qtot 219
+; residue 1317 NA  rtp NA   q +1.0
+   220         Na   1317     NA     NA    220          1      22.99   ; qtot 220
+; residue 1318 NA  rtp NA   q +1.0
+   221         Na   1318     NA     NA    221          1      22.99   ; qtot 221
+; residue 1319 NA  rtp NA   q +1.0
+   222         Na   1319     NA     NA    222          1      22.99   ; qtot 222
+; residue 1320 NA  rtp NA   q +1.0
+   223         Na   1320     NA     NA    223          1      22.99   ; qtot 223
+; residue 1321 NA  rtp NA   q +1.0
+   224         Na   1321     NA     NA    224          1      22.99   ; qtot 224
+; residue 1322 NA  rtp NA   q +1.0
+   225         Na   1322     NA     NA    225          1      22.99   ; qtot 225
+; residue 1323 NA  rtp NA   q +1.0
+   226         Na   1323     NA     NA    226          1      22.99   ; qtot 226
+; residue 1324 NA  rtp NA   q +1.0
+   227         Na   1324     NA     NA    227          1      22.99   ; qtot 227
+; residue 1325 NA  rtp NA   q +1.0
+   228         Na   1325     NA     NA    228          1      22.99   ; qtot 228
+; residue 1326 NA  rtp NA   q +1.0
+   229         Na   1326     NA     NA    229          1      22.99   ; qtot 229
+; residue 1327 NA  rtp NA   q +1.0
+   230         Na   1327     NA     NA    230          1      22.99   ; qtot 230
+; residue 1328 NA  rtp NA   q +1.0
+   231         Na   1328     NA     NA    231          1      22.99   ; qtot 231
+; residue 1329 NA  rtp NA   q +1.0
+   232         Na   1329     NA     NA    232          1      22.99   ; qtot 232
+; residue 1330 NA  rtp NA   q +1.0
+   233         Na   1330     NA     NA    233          1      22.99   ; qtot 233
+; residue 1331 NA  rtp NA   q +1.0
+   234         Na   1331     NA     NA    234          1      22.99   ; qtot 234
+; residue 1332 NA  rtp NA   q +1.0
+   235         Na   1332     NA     NA    235          1      22.99   ; qtot 235
+; residue 1333 NA  rtp NA   q +1.0
+   236         Na   1333     NA     NA    236          1      22.99   ; qtot 236
+; residue 1334 NA  rtp NA   q +1.0
+   237         Na   1334     NA     NA    237          1      22.99   ; qtot 237
+; residue 1335 NA  rtp NA   q +1.0
+   238         Na   1335     NA     NA    238          1      22.99   ; qtot 238
+; residue 1336 NA  rtp NA   q +1.0
+   239         Na   1336     NA     NA    239          1      22.99   ; qtot 239
+; residue 1337 NA  rtp NA   q +1.0
+   240         Na   1337     NA     NA    240          1      22.99   ; qtot 240
+; residue 1338 NA  rtp NA   q +1.0
+   241         Na   1338     NA     NA    241          1      22.99   ; qtot 241
+; residue 1339 NA  rtp NA   q +1.0
+   242         Na   1339     NA     NA    242          1      22.99   ; qtot 242
+; residue 1340 NA  rtp NA   q +1.0
+   243         Na   1340     NA     NA    243          1      22.99   ; qtot 243
+; residue 1341 NA  rtp NA   q +1.0
+   244         Na   1341     NA     NA    244          1      22.99   ; qtot 244
+; residue 1342 NA  rtp NA   q +1.0
+   245         Na   1342     NA     NA    245          1      22.99   ; qtot 245
+; residue 1343 NA  rtp NA   q +1.0
+   246         Na   1343     NA     NA    246          1      22.99   ; qtot 246
+; residue 1344 NA  rtp NA   q +1.0
+   247         Na   1344     NA     NA    247          1      22.99   ; qtot 247
+; residue 1345 NA  rtp NA   q +1.0
+   248         Na   1345     NA     NA    248          1      22.99   ; qtot 248
+; residue 1346 NA  rtp NA   q +1.0
+   249         Na   1346     NA     NA    249          1      22.99   ; qtot 249
+; residue 1347 NA  rtp NA   q +1.0
+   250         Na   1347     NA     NA    250          1      22.99   ; qtot 250
+; residue 1348 NA  rtp NA   q +1.0
+   251         Na   1348     NA     NA    251          1      22.99   ; qtot 251
+; residue 1349 NA  rtp NA   q +1.0
+   252         Na   1349     NA     NA    252          1      22.99   ; qtot 252
+; residue 1350 NA  rtp NA   q +1.0
+   253         Na   1350     NA     NA    253          1      22.99   ; qtot 253
+; residue 1351 NA  rtp NA   q +1.0
+   254         Na   1351     NA     NA    254          1      22.99   ; qtot 254
+; residue 1352 NA  rtp NA   q +1.0
+   255         Na   1352     NA     NA    255          1      22.99   ; qtot 255
+; residue 1353 NA  rtp NA   q +1.0
+   256         Na   1353     NA     NA    256          1      22.99   ; qtot 256
+; residue 1354 NA  rtp NA   q +1.0
+   257         Na   1354     NA     NA    257          1      22.99   ; qtot 257
+; residue 1355 NA  rtp NA   q +1.0
+   258         Na   1355     NA     NA    258          1      22.99   ; qtot 258
+; residue 1356 NA  rtp NA   q +1.0
+   259         Na   1356     NA     NA    259          1      22.99   ; qtot 259
+; residue 1357 NA  rtp NA   q +1.0
+   260         Na   1357     NA     NA    260          1      22.99   ; qtot 260
+; residue 1358 NA  rtp NA   q +1.0
+   261         Na   1358     NA     NA    261          1      22.99   ; qtot 261
+; residue 1359 NA  rtp NA   q +1.0
+   262         Na   1359     NA     NA    262          1      22.99   ; qtot 262
+; residue 1360 NA  rtp NA   q +1.0
+   263         Na   1360     NA     NA    263          1      22.99   ; qtot 263
+; residue 1361 NA  rtp NA   q +1.0
+   264         Na   1361     NA     NA    264          1      22.99   ; qtot 264
+; residue 1362 NA  rtp NA   q +1.0
+   265         Na   1362     NA     NA    265          1      22.99   ; qtot 265
+; residue 1363 NA  rtp NA   q +1.0
+   266         Na   1363     NA     NA    266          1      22.99   ; qtot 266
+; residue 1364 NA  rtp NA   q +1.0
+   267         Na   1364     NA     NA    267          1      22.99   ; qtot 267
+; residue 1365 NA  rtp NA   q +1.0
+   268         Na   1365     NA     NA    268          1      22.99   ; qtot 268
+; residue 1366 CL  rtp CL   q -1.0
+   269         Cl   1366     CL     CL    269         -1      35.45   ; qtot 267
+; residue 1367 CL  rtp CL   q -1.0
+   270         Cl   1367     CL     CL    270         -1      35.45   ; qtot 266
+; residue 1368 CL  rtp CL   q -1.0
+   271         Cl   1368     CL     CL    271         -1      35.45   ; qtot 265
+; residue 1369 CL  rtp CL   q -1.0
+   272         Cl   1369     CL     CL    272         -1      35.45   ; qtot 264
+; residue 1370 CL  rtp CL   q -1.0
+   273         Cl   1370     CL     CL    273         -1      35.45   ; qtot 263
+; residue 1371 CL  rtp CL   q -1.0
+   274         Cl   1371     CL     CL    274         -1      35.45   ; qtot 262
+; residue 1372 CL  rtp CL   q -1.0
+   275         Cl   1372     CL     CL    275         -1      35.45   ; qtot 261
+; residue 1373 CL  rtp CL   q -1.0
+   276         Cl   1373     CL     CL    276         -1      35.45   ; qtot 260
+; residue 1374 CL  rtp CL   q -1.0
+   277         Cl   1374     CL     CL    277         -1      35.45   ; qtot 259
+; residue 1375 CL  rtp CL   q -1.0
+   278         Cl   1375     CL     CL    278         -1      35.45   ; qtot 258
+; residue 1376 CL  rtp CL   q -1.0
+   279         Cl   1376     CL     CL    279         -1      35.45   ; qtot 257
+; residue 1377 CL  rtp CL   q -1.0
+   280         Cl   1377     CL     CL    280         -1      35.45   ; qtot 256
+; residue 1378 CL  rtp CL   q -1.0
+   281         Cl   1378     CL     CL    281         -1      35.45   ; qtot 255
+; residue 1379 CL  rtp CL   q -1.0
+   282         Cl   1379     CL     CL    282         -1      35.45   ; qtot 254
+; residue 1380 CL  rtp CL   q -1.0
+   283         Cl   1380     CL     CL    283         -1      35.45   ; qtot 253
+; residue 1381 CL  rtp CL   q -1.0
+   284         Cl   1381     CL     CL    284         -1      35.45   ; qtot 252
+; residue 1382 CL  rtp CL   q -1.0
+   285         Cl   1382     CL     CL    285         -1      35.45   ; qtot 251
+; residue 1383 CL  rtp CL   q -1.0
+   286         Cl   1383     CL     CL    286         -1      35.45   ; qtot 250
+; residue 1384 CL  rtp CL   q -1.0
+   287         Cl   1384     CL     CL    287         -1      35.45   ; qtot 249
+; residue 1385 CL  rtp CL   q -1.0
+   288         Cl   1385     CL     CL    288         -1      35.45   ; qtot 248
+; residue 1386 CL  rtp CL   q -1.0
+   289         Cl   1386     CL     CL    289         -1      35.45   ; qtot 247
+; residue 1387 CL  rtp CL   q -1.0
+   290         Cl   1387     CL     CL    290         -1      35.45   ; qtot 246
+; residue 1388 CL  rtp CL   q -1.0
+   291         Cl   1388     CL     CL    291         -1      35.45   ; qtot 245
+; residue 1389 CL  rtp CL   q -1.0
+   292         Cl   1389     CL     CL    292         -1      35.45   ; qtot 244
+; residue 1390 CL  rtp CL   q -1.0
+   293         Cl   1390     CL     CL    293         -1      35.45   ; qtot 243
+; residue 1391 CL  rtp CL   q -1.0
+   294         Cl   1391     CL     CL    294         -1      35.45   ; qtot 242
+; residue 1392 CL  rtp CL   q -1.0
+   295         Cl   1392     CL     CL    295         -1      35.45   ; qtot 241
+; residue 1393 CL  rtp CL   q -1.0
+   296         Cl   1393     CL     CL    296         -1      35.45   ; qtot 240
+; residue 1394 CL  rtp CL   q -1.0
+   297         Cl   1394     CL     CL    297         -1      35.45   ; qtot 239
+; residue 1395 CL  rtp CL   q -1.0
+   298         Cl   1395     CL     CL    298         -1      35.45   ; qtot 238
+; residue 1396 CL  rtp CL   q -1.0
+   299         Cl   1396     CL     CL    299         -1      35.45   ; qtot 237
+; residue 1397 CL  rtp CL   q -1.0
+   300         Cl   1397     CL     CL    300         -1      35.45   ; qtot 236
+; residue 1398 CL  rtp CL   q -1.0
+   301         Cl   1398     CL     CL    301         -1      35.45   ; qtot 235
+; residue 1399 CL  rtp CL   q -1.0
+   302         Cl   1399     CL     CL    302         -1      35.45   ; qtot 234
+; residue 1400 CL  rtp CL   q -1.0
+   303         Cl   1400     CL     CL    303         -1      35.45   ; qtot 233
+; residue 1401 CL  rtp CL   q -1.0
+   304         Cl   1401     CL     CL    304         -1      35.45   ; qtot 232
+; residue 1402 CL  rtp CL   q -1.0
+   305         Cl   1402     CL     CL    305         -1      35.45   ; qtot 231
+; residue 1403 CL  rtp CL   q -1.0
+   306         Cl   1403     CL     CL    306         -1      35.45   ; qtot 230
+; residue 1404 CL  rtp CL   q -1.0
+   307         Cl   1404     CL     CL    307         -1      35.45   ; qtot 229
+; residue 1405 CL  rtp CL   q -1.0
+   308         Cl   1405     CL     CL    308         -1      35.45   ; qtot 228
+; residue 1406 CL  rtp CL   q -1.0
+   309         Cl   1406     CL     CL    309         -1      35.45   ; qtot 227
+; residue 1407 CL  rtp CL   q -1.0
+   310         Cl   1407     CL     CL    310         -1      35.45   ; qtot 226
+; residue 1408 CL  rtp CL   q -1.0
+   311         Cl   1408     CL     CL    311         -1      35.45   ; qtot 225
+; residue 1409 CL  rtp CL   q -1.0
+   312         Cl   1409     CL     CL    312         -1      35.45   ; qtot 224
+; residue 1410 CL  rtp CL   q -1.0
+   313         Cl   1410     CL     CL    313         -1      35.45   ; qtot 223
+; residue 1411 CL  rtp CL   q -1.0
+   314         Cl   1411     CL     CL    314         -1      35.45   ; qtot 222
+; residue 1412 CL  rtp CL   q -1.0
+   315         Cl   1412     CL     CL    315         -1      35.45   ; qtot 221
+; residue 1413 CL  rtp CL   q -1.0
+   316         Cl   1413     CL     CL    316         -1      35.45   ; qtot 220
+; residue 1414 CL  rtp CL   q -1.0
+   317         Cl   1414     CL     CL    317         -1      35.45   ; qtot 219
+; residue 1415 CL  rtp CL   q -1.0
+   318         Cl   1415     CL     CL    318         -1      35.45   ; qtot 218
+; residue 1416 CL  rtp CL   q -1.0
+   319         Cl   1416     CL     CL    319         -1      35.45   ; qtot 217
+; residue 1417 CL  rtp CL   q -1.0
+   320         Cl   1417     CL     CL    320         -1      35.45   ; qtot 216
+; residue 1418 CL  rtp CL   q -1.0
+   321         Cl   1418     CL     CL    321         -1      35.45   ; qtot 215
+; residue 1419 CL  rtp CL   q -1.0
+   322         Cl   1419     CL     CL    322         -1      35.45   ; qtot 214
+; residue 1420 CL  rtp CL   q -1.0
+   323         Cl   1420     CL     CL    323         -1      35.45   ; qtot 213
+; residue 1421 CL  rtp CL   q -1.0
+   324         Cl   1421     CL     CL    324         -1      35.45   ; qtot 212
+; residue 1422 CL  rtp CL   q -1.0
+   325         Cl   1422     CL     CL    325         -1      35.45   ; qtot 211
+; residue 1423 CL  rtp CL   q -1.0
+   326         Cl   1423     CL     CL    326         -1      35.45   ; qtot 210
+; residue 1424 CL  rtp CL   q -1.0
+   327         Cl   1424     CL     CL    327         -1      35.45   ; qtot 209
+; residue 1425 CL  rtp CL   q -1.0
+   328         Cl   1425     CL     CL    328         -1      35.45   ; qtot 208
+; residue 1426 CL  rtp CL   q -1.0
+   329         Cl   1426     CL     CL    329         -1      35.45   ; qtot 207
+; residue 1427 CL  rtp CL   q -1.0
+   330         Cl   1427     CL     CL    330         -1      35.45   ; qtot 206
+; residue 1428 CL  rtp CL   q -1.0
+   331         Cl   1428     CL     CL    331         -1      35.45   ; qtot 205
+; residue 1429 CL  rtp CL   q -1.0
+   332         Cl   1429     CL     CL    332         -1      35.45   ; qtot 204
+; residue 1430 CL  rtp CL   q -1.0
+   333         Cl   1430     CL     CL    333         -1      35.45   ; qtot 203
+; residue 1431 CL  rtp CL   q -1.0
+   334         Cl   1431     CL     CL    334         -1      35.45   ; qtot 202
+; residue 1432 CL  rtp CL   q -1.0
+   335         Cl   1432     CL     CL    335         -1      35.45   ; qtot 201
+; residue 1433 CL  rtp CL   q -1.0
+   336         Cl   1433     CL     CL    336         -1      35.45   ; qtot 200
+; residue 1434 CL  rtp CL   q -1.0
+   337         Cl   1434     CL     CL    337         -1      35.45   ; qtot 199
+; residue 1435 CL  rtp CL   q -1.0
+   338         Cl   1435     CL     CL    338         -1      35.45   ; qtot 198
+; residue 1436 CL  rtp CL   q -1.0
+   339         Cl   1436     CL     CL    339         -1      35.45   ; qtot 197
+; residue 1437 CL  rtp CL   q -1.0
+   340         Cl   1437     CL     CL    340         -1      35.45   ; qtot 196
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion_chain_X11.itp"
+#endif
+
