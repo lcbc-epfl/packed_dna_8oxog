@@ -1,0 +1,8 @@
+To count how many hbonding interactions are present across a trajectory or how many nearby (within 0.35nm) hbonding possible partners there are use
+gmx hbond -f <xtc file> -s <tpr file> -n <index file if needed> -num <name of output file xvg format>
+
+The output will provide in the first column the number of hbonding interactions per frame evalauted. In the second column in the number of possible hbonding partners within 0.35nm. 
+
+You can calculate averages with bash like:
+awk '{ sum += $2; n++ } END { if (n > 0) print sum / n; }' <num xvg file> 
+awk '{ sum += $3; n++ } END { if (n > 0) print sum / n; }' <num xvg file>

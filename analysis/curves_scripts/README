@@ -1,0 +1,45 @@
+Performing curves runs and analysis:
+    Required files:
+    * all_trajectory.pdb (a multiframe pdb you generated from the preparation steps) Make sure that all the bases of DNA are either standard OR are included in the curves library of bases for analysis. An error will occur otherwise.
+    * header (the first line of the pdb file you will need to add to every frame usually begins CRYST1)
+    * frames_num.txt (frame numbers)
+    Required Scripts:
+        3_1step_split_frames.sh (takes all_trajectory.pdb and header)
+        3_2step_input.sh (needs output pdbs from split_frames.sh)
+            * run_curves.sh (used by input.sh)
+        3_3step_moving.sh (uses output from 3_2step_input.sh/run_curves.sh)
+        3_4step_20_notails_line_by_line.py (uses frames_num.txt and the lis files you generated from previous scripts 1-4)
+        3_5step_statistical_analysis.py (uses data generated from script 5)
+        3_6step_overall_collect_base_data.sh and associated scripts:
+            * zeroes_collect_base_data.sh
+            * twos_collect_base_data.sh
+            * fives_collect_base_data.sh
+            * sevens_collect_base_data.sh
+            * each_bp.sh
+        3_7step_concat.sh (needs previous script outputs)
+        3_8step_clean_radians.py (needs previous script outputs) #If you decide you'd like to work with radians instead of degrees. This script will convert degrees to radians and ensure all distributions are centered around a central value. 
+        3_9step_header_each_bp.sh (you need to copy this into a sub-directory and run it there, see the first commented line)
+
+    Output:
+        From 3_1step_split_frames.sh:
+             pbd files each associated with a specific frame of your trajectory
+        From 3_2step_input.sh & run_curves.sh:
+            directories for each frame with curves results: bna.pdb,  r+bdna_B.pdb,  r+bdna.cda, r+bdna_X.pd, r+bna.lis 
+        From 3_3step_moving.sh: output directory containing all the lis files from each frame's curves analysis results
+        from 3_4step_20_notails_line_by_line.py:
+            20_notails_curves_data directory
+            Within the 20_notails_curves_data directory are directories for each frame
+            Within each frame's directory is A-E data csvs
+        From 3_5step_statistical_results.py:
+            20_notails_statistical_results directory
+            Within the 20_notails_statistical_results directory is a summary of stats on each area of data from A-E
+        From 3_6step_overall_collect_base_data.sh and associated scripts:
+            output_bybase directory
+            in the output_bybase directory you will get data_{frame}_bybase.csv file for each frame
+        From 3_7step_concat.sh:
+            20_notails_bybase.csv containing a full csv of columns associated with the curves parameters for each data frame
+        From 3_8step_clean_radians.py
+            clean_20_notails_bybase_data.csv containing curves data now cleaned to not split dihedralsinto bimodal extremes  and to be in radians rather than degrees if you'd like 
+        From 3_9step_header.sh:
+            full_header.csv
+            20_notails_bybase.csv - final csv for use with header
