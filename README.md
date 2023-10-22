@@ -25,7 +25,7 @@ analysis directory contains:
   * de_distr.f90 (and affiliated .o file)
   
 classical_MD directory contains:
-* N.B. Full trajectory files are too large for github or zenodo storage, so reduced trajectories (every 50 time steps) are found directly on zenodo
+* N.B. Full trajectory files are too large for github or zenodo storage, so reduced, representative trajectory frames (every 500 time steps) are located directly on zenodo
 * 8oxoG_reg1 directory
   * 8oxoG_oxidized_reg1 : analogous to above
   * 8oxoG_reduced_reg1 : analogous to above
@@ -48,7 +48,7 @@ curves_runs directory contains:
 * wt_0_curves_data : analogous to above
 
 QMMM_MD directory contains:
-* N.B. Full trajectory files are too large for github or zenodo storage, so reduced example frames are found directly on zenodo
+* N.B. Full trajectory files are too large for github or zenodo storage, so reduced initial trajectory frames are found directly on zenodo. There are 60 frames from the first 60000 time steps of each trajectory.
 * 8oxoG_reg1
 * * 8oxoG_reg1_oxidized_qmmm
   * * cpmd.inp : input file for cpmd qmmmm md run
