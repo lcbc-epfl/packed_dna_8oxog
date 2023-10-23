@@ -5,7 +5,9 @@ SI_October2023.pdf contains:
 * Tables with the identified DNA-protein close contacts
 * Table of average hydrogen-bonding interactions with the defect regions and solvent molecules
 * Table of average hydrogen-bonding eligible partners with the central base of the QM region and solvent molecules
+* Table of the number of average solvent oxygen atoms within 3.5 Å of the N7 atom of the central base
 * All 41 structural parameter distribution plots as well as select section-by-section structural parameter plots
+* Tables of structural parameter means, standard deviations and selected Z-scores
 * RMSF plots of base flexibility for four DNA sections
 * DNA-water radial distribution functions for the phosphorus atoms of the DNA backbone near the quantum region and oxygen atoms in water
 * DNA-water radial distribution functions for the N7 atom of the QM region central base and oxygen atoms in water
@@ -66,6 +68,7 @@ QMMM_MD directory contains:
 * wt_reg2
 * * wt_reg2_oxidized_qmmm : analogous to above
 * * wt_reg2_reduced_qmmm : analogous to above
+* water_qmmm_N7 : Raw data of solvent oxygen atoms within 3.5 Å of the N7 atom of the central base at any point within the QM/MM MD trajectories
    
 wfn_optimization directory contains:
 * wf_1.inp : example CPMD input for performing a wavefunction optimization for oxidized quantum region
