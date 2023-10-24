@@ -10,8 +10,6 @@ SI_October2023.pdf contains:
 * Tables of structural parameter means, standard deviations and selected Z-scores
 * RMSF plots of base flexibility for four DNA sections
 * DNA-water radial distribution functions for the phosphorus atoms of the DNA backbone near the quantum region and oxygen atoms in water
-* DNA-water radial distribution functions for the N7 atom of the QM region central base and oxygen atoms in water
-* Tables of means and standard deviations for all structural parameter plots
 
 analysis directory contains:
 * counting_protein_contacts.f90 : to calculate number of strong protein-DNA interactions 
